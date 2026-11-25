@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+#bottom {
+  background: linear-gradient(transparent, var(--primary-color));
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: rgb(19, 27, 43);
+  --secondary-color: rgb(47, 74, 99);
+  --tertiary-color: rgb(91, 145, 163);
+  --quaternary-color: rgb(207, 234, 224);
+}
+
+@theme inline {
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+  --color-tertiary: var(--tertiary-color);
+  --color-quaternary: var(--quaternary-color);
+}
